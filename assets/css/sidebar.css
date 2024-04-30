@@ -1,33 +1,41 @@
 /* Style do sidebar */
 body{
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; 
+
 }
 
 
 .sidebar{
     display: flex;
     flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 10px;
+    max-height: 800px;
+    width: 488px;
 }
 
-.video1{
-    position: relative;
-    bottom: 15px;
-    left: 50px;
+.video{
+    display: flex;
+    align-items: center;
+    gap: 15px;
     margin-left: 10px;
-    padding: 100px;
+    padding: 10px;
 }
 
-/* .img-video1{
-    width: 160px;
-    height: 90px;
-} */
+.p-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
 
-.p-video1{
-    position: relative;
+
+ .p-video1{
+    /* position: relative;
     left: 250px;
     bottom: 135px;
     width: 280px;
-    height: 32px;
+    height: 32px; */
     font-family: Arial;
     font-size: 20px;
     font-weight: 600;
@@ -37,12 +45,12 @@ body{
 }
 
 .p2-video1{
-    position: relative;
+    /* position: relative;
     left: 250px;
     bottom: 135px;
     width: 196px;
     height: 32px;
-    margin-top: 20px;
+    margin-top: 20px; */
     font-family: Arial;
     font-size: 17px;
     font-weight: 400;
@@ -51,86 +59,14 @@ body{
 }
 
 .p3-video1{
-    position: relative;
+    /* position: relative;
     left: 250px;
     bottom: 135px;
     width: 196px;
-    height: 32px;
+    height: 32px; */
     font-family: Arial;
     font-size: 17px;
     font-weight: 400;
     line-height: 16.41px;
     text-align: left;
-}
-
-.video2{
-    position: relative;
-    bottom: 310px;
-    left: 50px;
-    margin-left: 10px;
-    padding: 100px;
-}
-
-.p-video2{
-    position: relative;
-    left: 250px;
-    bottom: 135px;
-    width: 280px;
-    height: 32px;
-    font-family: Arial;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: left;
-    line-height: 21px;
-
-}
-
-.p2-video2{
-    position: relative;
-    left: 250px;
-    bottom: 140px;
-    width: 196px;
-    height: 32px;
-    margin-top: 20px;
-    font-family: Arial;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 16.41px;
-    text-align: left;
-}
-
-.p3-video2{
-    position: relative;
-    left: 250px;
-    bottom: 135px;
-    width: 196px;
-    height: 32px;
-    font-family: Arial;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 16.41px;
-    text-align: left;
-}
-
-.video3{
-    position: relative;
-    bottom: 605px;
-    left: 50px;
-    margin-left: 10px;
-    padding: 100px;
-}
-.video4{
-    position: relative;
-    bottom: 900px;
-    left: 50px;
-    margin-left: 10px;
-    padding: 100px;
-}
-
-.video5{
-    position: relative;
-    bottom: 1195px;
-    left: 50px;
-    margin-left: 10px;
-    padding: 100px;
 }

@@ -5,8 +5,12 @@ body{
 }
 
 .div-body {
+    /* position: relative; */
+    width: 100%;
     display: flex;
-    max-height: 1000px;
+    justify-content: space-around;
+    max-height: 800px;
+    /* max-width: 1440px; */
 }
 
 .watching-video {
